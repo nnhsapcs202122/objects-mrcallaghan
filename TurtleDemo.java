@@ -9,5 +9,6 @@ public class TurtleDemo
         crush.setPenColor(Color.ORANGE);
         crush.penDown();
         crush.forward(50);
+        crush.moveTo(100,100);
     }
 }
