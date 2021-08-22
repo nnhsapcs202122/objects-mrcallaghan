@@ -10,5 +10,6 @@ public class TurtleDemo
         crush.penDown();
         crush.forward(50);
         crush.moveTo(100,100);
+        crush.forward(50);
     }
 }
