@@ -12,5 +12,6 @@ public class TurtleDemo
         crush.moveTo(100,100);
         crush.forward(50);
         crush.forward(30);
+        crush.forward(30);
     }
 }
