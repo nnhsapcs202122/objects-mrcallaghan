@@ -113,9 +113,44 @@ public class TurtleDemo
     
     public static void drawLine()
     {
+        /*
+         * Objects are entitites in a program.
+         *      Objects have attributes.
+         *      Objects are minupulated by methods.
+         *      
+         * ocean and crush are variables that reference objects.
+         * 
+         * Classes describe a collection of objects.
+         *      All objects of a class have the same behavior (methods)
+         *      and types of attributes (but they may have different values).
+         *      
+         * World and Turtle and classes.
+         */
         
+        World ocean = new World();
+        
+        /*
+         * We use the new operator to construct (create, instantiate) an object.
+         * 
+         * The class of the object is specified immediately after the new operator (e.g. Turtle).
+         * 
+         * If we need to pass additional information to construct the object,
+         *      arguments are specified in parentheses after the class (e.g. ocean).
+         */
+        
+        Turtle crush = new Turtle(ocean);
     
-    
+        /*
+         * Variables store values to be used later.
+         * 
+         *      Variables have a type (e.g., int), a name (e.g., width), and a value (e.g., 20).
+         *      
+         */
+        
+        int width;  // declaring a variable
+        width = 20;  // assigning a value to a variable
+        
+        
     
     }
 }
