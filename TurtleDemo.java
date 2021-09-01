@@ -184,7 +184,7 @@ public class TurtleDemo
         crush.setPenColor(Color.RED);
         crush.forward(30);
         
-        Color white = new Color(255,255,255);  // defining own color
+        Color white = new Color(255,255,255);  // defining your own color example
         
         
     }
